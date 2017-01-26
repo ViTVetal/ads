@@ -34,11 +34,14 @@ gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 # Plus integrations with:
 gem 'devise'
+gem 'omniauth-vkontakte'
 gem 'cancan' # or cancancan
 gem 'draper', github: 'audionerd/draper', branch: 'rails5'
 gem 'pundit'
 
 gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
+
+gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
