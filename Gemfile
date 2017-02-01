@@ -35,6 +35,7 @@ gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resour
 # Plus integrations with:
 gem 'devise'
 gem 'omniauth-vkontakte'
+gem 'omniauth-facebook'
 gem 'cancan' # or cancancan
 gem 'draper', github: 'audionerd/draper', branch: 'rails5'
 gem 'pundit'

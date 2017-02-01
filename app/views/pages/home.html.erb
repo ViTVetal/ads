@@ -3,4 +3,8 @@
   <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %>
   <br />
   <% end %>
+    <br />
+  <%= link_to "Sign in", new_user_session_path %>
+      <br />
+  <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
 <% end %>
