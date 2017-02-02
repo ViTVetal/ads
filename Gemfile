@@ -44,6 +44,8 @@ gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
 
 gem 'figaro'
 
+gem 'delayed_job_active_record'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
